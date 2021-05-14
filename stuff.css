@@ -1,9 +1,33 @@
+#head {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
 #footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 5px;
     left: 5px;
+}
+
+#pic {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width:345px; 
+    height:300px;
+}
+
+#homepageLogo {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 235px;
+    height: 50px;
 }
