@@ -1,2 +1,5 @@
-<html>
-<title>Welcome to Richard's Website</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome to Richard's Website</title>
+    </head>
