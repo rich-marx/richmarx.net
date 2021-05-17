@@ -1,0 +1,97 @@
+#head {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    position: relative;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+
+#pic {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 235px; 
+    height: 204px;
+}
+
+#homepageLogo {
+    top: 5px;
+    left: 0px;
+    width: 235px;
+    height: 50px;
+}
+
+/* The sidebar menu */
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%; /* Set the width of the sidebar */
+    background-color: #3f48cc;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* The navigation menu links */
+  ul.sidenav a {
+    display: block;
+    color: #cfcfcf;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  ul.sidenav a:hover {
+    color: black;
+  }
+
+  div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 900px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+    
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    ul.sidenav li a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 240px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
