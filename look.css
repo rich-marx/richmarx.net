@@ -16,6 +16,15 @@ body {
     right: 5px;
 }
 
+@media screen and (max-height: 350px) {
+  #footer {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    margin-top: 50;
+  }
+}
+
 #pic {
     position: absolute;
     top: 5px;
