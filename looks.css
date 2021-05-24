@@ -13,7 +13,7 @@ body {
 #footer {
     position: fixed;
     bottom: 5px;
-    left: 5px;
+    right: 5px;
 }
 
 #pic {
@@ -75,12 +75,28 @@ ul.sidenav {
     }
     
     div.content {margin-left: 0;}
+
+    #pic {
+      position: relative;
+      top: 5px;
+      right: 5px;
+      width: 235px; 
+      height: 204px;
+    }
   }
   
   @media screen and (max-width: 400px) {
     ul.sidenav li a {
       text-align: center;
       float: none;
+    }
+
+    #pic {
+      position: relative;
+      top: 5px;
+      right: 5px;
+      width: 235px; 
+      height: 204px;
     }
   }
   
