@@ -341,6 +341,22 @@ b, strong {
   display: block;
   line-height: 75px;
 }
+.timeline-yrs {
+  background: #474559;
+  border-radius: 100%;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+.timeline-yrs span {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  line-height: 75px;
+}
 
 .timeline-info {
   display: inline-block;
@@ -354,7 +370,6 @@ b, strong {
   font-weight: bold;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 15px;
 }
 
 .owl-carousel .owl-nav span {
