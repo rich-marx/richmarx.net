@@ -4,6 +4,12 @@ body {
   padding-top: 70px;
 }
 
+.fail {
+  color: red;
+  visibility: hidden;
+  font-size: 10px
+}
+
 .full-screen {
   padding: 8rem 0;
 }

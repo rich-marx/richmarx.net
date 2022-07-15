@@ -267,7 +267,8 @@
             <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
                 <div class="contact-info-item">
                   <h3 class="mb-3 text-white">Say hello</h3>
-                  <p><a href="mailto:richmarx@umich.edu">richmarx@umich.edu</a></p>
+                  <p><span>&#9993;</span><a href="mailto:richmarx@umich.edu"> richmarx@umich.edu</a></p>
+                  <p><a href="https://www.linkedin.com/in/richmarx/"> Connect with me on LinkedIn!</a></p>
                 </div>
             </div>
           </div>
@@ -291,13 +292,21 @@
                   </div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                    <input type="button" class="form-control submit-btn" value="Send" onclick="showElement()">
+                  </div>
+                  <div class="fail">
+                    Unfortunately, your message was unable to send. If the error persists, I recommend sending your message via email.
                   </div>
                 </div>
               </form>
             </div>
+            <script type="text/javascript">
+              function showElement() {
+                  element = document.querySelector('.fail');
+                  element.style.visibility = 'visible';
+              }
+          </script>
           </div>
-
         </div>
       </div>
     </section>
